@@ -34,7 +34,6 @@ h1 {
   font-size: 2rem;
   font-weight: 700;
   margin: 0;
-  /* margin: 2rem 0 1rem 0; */
 }
 
 button {
@@ -62,7 +61,7 @@ button.active {
   border-color: #6f757c;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #111315;
     background-color: #ffffff;
@@ -78,4 +77,4 @@ button.active {
     background-color: #6f757c;
     border-color: #6f757c;
   }
-}
+} */

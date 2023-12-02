@@ -49,8 +49,8 @@ function App() {
         alt="Cafe background"
         loading="lazy"
       />
-
-      <div className="relative z-10 mx-auto my-0 w-max min-w-min max-w-[70vw] overflow-hidden rounded-2xl bg-[#fef7ee] px-10 py-20 text-center dark:bg-[#1b1d1f] xl:max-w-5xl">
+      {/* bg-[#fef7ee] dark:bg-[#1b1d1f]*/}
+      <div className="relative z-10 mx-auto my-0 w-max min-w-min max-w-[70vw] overflow-hidden rounded-2xl bg-[#1b1d1f] px-10 py-20 text-center xl:max-w-5xl">
         <img
           className="absolute left-1/2 top-5 -z-10 w-64"
           src={Vector}
@@ -58,8 +58,10 @@ function App() {
           loading="lazy"
         />
         <section className="hero">
-          <h1 className="text-[#111315] dark:text-[#fef7ee]">Our Collection</h1>
-          <p className="mx-auto mb-4 mt-0 min-w-min max-w-lg text-base font-semibold text-[#1B1D1F] dark:text-[#6f757c]">
+          {/* text-[#111315] dark:text-[#fef7ee] */}
+          <h1 className="text-[#fef7ee]">Our Collection</h1>
+          {/* text-[#1B1D1F] dark:text-[#6f757c] */}
+          <p className="mx-auto mb-4 mt-0 min-w-min max-w-lg text-base font-semibold text-[#6f757c]">
             Introducing our Coffee Collection, a selection of unique coffees
             from different roast types and origins, expertly roasted in small
             batches and shipped fresh weekly.

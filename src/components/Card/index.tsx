@@ -31,7 +31,8 @@ const Card = ({
 
       <div className="flex flex-row items-center justify-between pl-1">
         <h2 className="m-0 text-base font-bold">{name}</h2>
-        <span className="h-fit rounded-md bg-[#bee3cc] px-2 py-1 text-xs font-semibold dark:text-[#111315]">{`${price}`}</span>
+        {/* dark:text-[#111315] */}
+        <span className="h-fit rounded-md bg-[#bee3cc] px-2 py-1 text-xs font-semibold text-[#111315]">{`${price}`}</span>
       </div>
 
       <div className="rating m-0 flex flex-row items-end justify-between pl-1 text-sm">
